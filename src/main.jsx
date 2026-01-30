@@ -8,7 +8,7 @@ import NavContext from './context/NavContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/k72_Y">
       <Stairs>
         <NavContext>
           <App />
